@@ -1,0 +1,43 @@
+# Ignore build output folders
+/bin/
+/build/
+/out/
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# Maven target folder (if you use Maven)
+/target/
+
+# Gradle build folders (if you use Gradle)
+/.gradle/
+/build/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Java class files
+*.class
+
+# Ignore packaged archives
+*.jar
+*.war
+*.ear
+
+# Ignore generated files
+generated-sources/
+
+# Ignore environment files if any
+.env
